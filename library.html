@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Library projects</title>
+    </head>
+    <style>
+    #myForm{
+        display: none;
+    }
+#btn{
+    display: none;
+}
+</style>
+    <body>
+        <h1>Manage Library</h1>
+        <h3>do you want to see the book we have in library ?</h3>
+    <h5>you can register your book !</h5>
+        <div class="myForm">
+            <button input="submit" id="addBook">Add new book</button>
+
+            <form id="myForm"">
+
+                <label for>Title :</label><br>
+                <input type="text" id="bk-Title" name="bk-Title"><br>
+                <label for>Author:</label><br>
+                <input type="text" id="tp-Author" name="tp-Author"><br>
+                <label for>Pages's nbr:</label><br>
+                <input type="text" id="Pg-nbr" name="Pg-nbr"><br>
+            </form>
+            <br>
+            <button id="btn">Submit</button>
+        </div>
+
+        <div id="displayData">
+
+            <!-- <table border="1">
+                <tr>
+                    <th id="t-title">Title</th>
+                    <th id="t-author">Author</th>
+                    <th id="t-pg">Pages's nbr</th>
+                </tr>
+                <tr>
+                    <td id="td-title"></td>
+                    <td id="td-author"></td>
+                    <td id="td-pg"></td>
+                </tr>
+            </table> -->
+        </div>
+        <script src="library.js"></script>
+
+    </body>
+
+</html>
